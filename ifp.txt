@@ -1,0 +1,42 @@
+'''
+Projeto: Jogo das Perguntas
+2025.06.30
+Gustavo Maciel da Silva
+'''
+
+01. Entrada:
+Arquivo: jogodasperguntas.py
+Linha 55: resposta = int(input("Sua resposta: "))
+Explicação: A variável resposta recebe uma entrada do usuário atravéz da função input().
+
+02. Saída:
+Arquivo: jogodasperguntas.py
+Linha 67:  print(f"Você acertou {pontos} de {len(perguntas)} perguntas.")
+Explicação: Exibe uma mensagem personalizada usando f-string para formatação.
+
+03. Variáveis:
+Arquivo: jogodasperguntas.py
+Linha 20: resposta = 0  
+Explicação: Declara a variável resposta do tipo inteiro para armazenar a resposta.
+
+04. Estruturas de Decisão:
+Arquivo: jogodasperguntas.py
+Linha 68: if playAgain():
+              playGame()
+Explicação: Faz com que se a resposta for sim ou não (definidaa pelo programador) ele execute tal parte do código, se não for a esposta certa ele executa outra parte do código, (normalmente usando o "else:"). 
+
+05. Sub-rotinas:
+Arquivo: modules.py
+Linha 27: def limpaTela():
+            print('\n'*TAM)
+Explicação: Faz com que toda vez que a função limpaTela() for chamada ele executará o código.
+
+06. Operadores:
+Arquivo: jogodasperguntas.py
+Linha 60: pontos += 1
+Explicação: Faz com que a variável pontos receba mais 1 ao seu número,(no jogo ele só vai se executado se a pergunta for acertada).
+
+07. Estrutura de repetição:
+Arquivo: jogodasperguntas.py
+Linha 51: for i, q in enumerate(perguntas, 1):
+Explicação: Ele ai repetir o código x vezes(no jogo ele vai repetira o código de exibir as perguntas até que elas acabem)
